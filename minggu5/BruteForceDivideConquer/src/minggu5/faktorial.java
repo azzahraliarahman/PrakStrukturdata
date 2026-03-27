@@ -29,8 +29,8 @@ public class faktorial {
         int nilai = input.nextInt();
 
         faktorial fk = new faktorial();
-        System.out.println("Nilai faktorial" + nilai + " mengggunakan BF" + fk.faktorialBF(nilai));
-        System.out.println("Nilai faktorial" + nilai + " mengggunakan DC" + fk.faktorialDC(nilai));
+        System.out.println("Nilai faktorial" + nilai + " mengggunakan BF : " + fk.faktorialBF(nilai));
+        System.out.println("Nilai faktorial" + nilai + " mengggunakan DC : " + fk.faktorialDC(nilai));
         input.close();
 
     }
