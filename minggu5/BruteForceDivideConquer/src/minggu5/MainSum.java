@@ -18,6 +18,7 @@ public class MainSum {
         System.out.println("Total keuntungan (Brute Force): " + sm.totalBF());
         System.out.println(
                 "Total keuntungan (Divide and Conquer): " + sm.totalDC(sm.keuntungan, 0, sm.keuntungan.length - 1));
+                input.close();
 
     }
 
