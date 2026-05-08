@@ -69,4 +69,36 @@ public class StackTugasMahasiswa05 {
         System.out.println();
 
 }
+    public void TugasTerbawah() {
+        if (!isempty()) {
+            Mahasiswa05 m = stack[0];//akses langsung ke dasar
+            System.out.println("Tugas terbawah dikummpulkan oleh: " + m.nama);
+        } else {
+            System.out.println("Stack kosong! Tidak ada tugas yang dikumpulkan.");
+        }
+        
+       
+    }
+  
+    public int getJumlahTugas() {
+        if (!isEmpty()) {
+            return top + 1; // Menghitung jumlah elemen berdasarkan indeks top
+        } else {
+            return 0;
+        }
+    }
+
+    public boolean isEmpty() {
+    if (top == -1) {
+        return true;
+    } else {
+        return false;
+    }
 }
+}
+    
+
+
+
+
+
